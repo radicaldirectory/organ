@@ -20,3 +20,21 @@ in Naarm might like to promote online events that are organised in other places
 around the world. With considered UX design, federation can make this happen as
 seamlessly as if all the data were kept on contrally controlled servers (like on
 Facebook), but free from the extractive mechanics.
+
+Unfotunately, deploying a homeserver is not necessarily straightforward.
+Currently, the easiest way to do so is using a project called
+[matrix-docker-ansible-deploy](https://github.com/spantaleev/matrix-docker-ansible-deploy),
+which involves hiring a server, running some config on it, passing the server
+details into a configuration file, and running a script which automates the
+deployment. As the Organ project develops, it may make sense to try to
+contribute to this project so that the Organ web client as well as the server
+can be auto-deployed using the script. Any additional configuration that would
+make sense for Organ admins could be described in example config files,
+tutorials or walkthrough videos to make setting up an Organ client + homeserver
+instance more accessible.
+
+Some things to look into:
+
+- At what point S3-like object storage becomes beneficial. A cheaper,
+  non-Amazon, distributed S3 alternative is [Storj](https://www.storj.io)
+- Whether custom bots could be helpful for Organ server admins

@@ -80,4 +80,4 @@ Requests
 
 - people and groups can make and answer requests for support
 
-[Release Roadmap](https://www.notion.so/Release-Roadmap-aff05afbd520434f9f3f60a7a6b16a04)
+[Release Plan](release-plan.md)

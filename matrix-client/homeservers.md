@@ -1,4 +1,4 @@
-# Radical Directory Homeserver
+# Homeservers Plan
 
 App development will occur alongside the administration of a homeserver, and
 hosting of the web client, by the group Radical Directory. The intention for
@@ -21,7 +21,7 @@ around the world. With considered UX design, federation can make this happen as
 seamlessly as if all the data were kept on contrally controlled servers (like on
 Facebook), but free from the extractive mechanics.
 
-Unfotunately, deploying a homeserver is not necessarily straightforward.
+Unfortunately, deploying a homeserver is not necessarily straightforward.
 Currently, the easiest way to do so is using a project called
 [matrix-docker-ansible-deploy](https://github.com/spantaleev/matrix-docker-ansible-deploy),
 which involves hiring a server, running some config on it, passing the server

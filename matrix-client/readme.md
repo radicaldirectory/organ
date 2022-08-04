@@ -43,44 +43,22 @@ clients can implement the novel features.
 
 Background
 
-[Author’s Note](https://www.notion.so/Author-s-Note-7c3784c45eb44f4f94277b88f51b6a95)
+[Author’s Note](authors-note.md)
 
-[Radical Directory](https://www.notion.so/Radical-Directory-3cb75646b8d745c7a93a071d9eed9499)
+[Radical Directory](radical-directory.md)
 
-[Requirements](https://www.notion.so/Requirements-0466ce26e00745ea8fc8e7312ee018b4)
+[Requirements](requirements.md)
 
-[Introduction to Decentralised Software](https://www.notion.so/Introduction-to-Decentralised-Software-67f425bf8d5c4675afc6f681bf07926b)
+[Introduction to Decentralised Software](decentralised-software.md)
 
-[Overview of Similar Projects](https://www.notion.so/Overview-of-Similar-Projects-a760ddf0b8e74d6485506d91e6c76188)
+[Overview of Similar Projects](similar-projects.md)
 
 Proposal
 
-[Protocol: ‘Why Matrix?’](https://www.notion.so/Protocol-Why-Matrix-3df57b1c16104378bca1e309a4075fef)
+[Protocol: ‘Why Matrix?’](protocol.md)
 
-[Spec Extension](https://www.notion.so/Spec-Extension-392fa265aeda477c9f91516a3a73fbf1)
+[Spec Extension](spec-extension.md)
 
-[Development Plan](https://www.notion.so/Development-Plan-197e91a564cc428f8d8d7bdd78e173fa)
+[Development Plan](development-plan.md)
 
-[Flagship Ops Plan](https://www.notion.so/Flagship-Ops-Plan-a1720104b70249089b27ae995e27346e)
-
-As the Matrix project is oriented towards real-time communication,
-
-A side effect of the project would be onboarding new users to Matrix, enabling
-users to create accounts which can also be used with Element for chat.
-
-#
-
-**_TL;DR: I think we should make a decentralised app for organisations to post
-announcements and events on, and optionally encrypt these so only selected
-groups of people can access them. To enable this, the app should be an open
-source client to the Matrix protocol (with some minimal extensions to the
-specification)._**
-
-**_The organisation Radical Directory should administrate, moderate and promote
-a single Matrix server for grassroots activists in Naarm (so called Melbourne,
-Australia) who want to use the new app to share information and events._**
-
-**_However, the app should have utility for a far wider range of organisations.
-I invite interested and values-aligned organisations and individuals to connect
-with me, give feedback on the proposal, or otherwise support the development of
-such an app and a corresponding network of users._**
+[Homeservers Plan](homeservers.md)

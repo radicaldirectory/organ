@@ -38,7 +38,7 @@ implementations of the Olm and Megolm double-ratchet algorithms for end-to-end
 encryption (E2EE) — the same as is used by Signal. These libraries, which have
 undergone professional security audits, can be brought into a new client to provide E2EE. An argument for why E2EE would be useful in such an app can be found [here](requirements.md), and I've written aboud other benefits of building on Matrix [here](protocol.md).  
 
-[Protocol: ‘Why Matrix?’](protocol.md)
-[Spec Extension](spec-extension.md)
-[Development Plan](development-plan.md)
-[Homeservers Plan](homeservers.md)
+- [Protocol: ‘Why Matrix?’](protocol.md)
+- [Spec Extension](spec-extension.md)
+- [Development Plan](development-plan.md)
+- [Homeservers Plan](homeservers.md)

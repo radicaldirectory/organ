@@ -1,7 +1,9 @@
 # Organ: Federated Event Organising on Matrix
 
-This document collates research and outlines a proposal for a [federated](decentralised-software.md) app, **Organ.** The purpose of the app is to enable groups to organise events, make announcements
-and publish documents in an open, privacy-oriented way. The primary target audience is political organisers,
+This document collates research and outlines a proposal for a [federated](decentralised-software.md) app, **Organ.**
+
+The purpose of the app is to enable groups to organise events, make announcements,
+and publish media and documents in an open, privacy-oriented way. The primary target audience is political organisers,
 activists, nonprofits, unions, artists and community groups — particularly those
 that prefer a horizontal or grassroots organizing structure.
 

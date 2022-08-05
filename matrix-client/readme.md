@@ -8,10 +8,10 @@ that prefer a horizontal or grassroots organizing structure.
 
 To make reading this document easy, I've put contextualising background information in these documents:
 
-[What is this document?](authors-note.md)
-[What are the requirements for the proposed app?](requirements.md)
-[Introduction to Decentralised Software](decentralised-software.md) (the term 'federated' is explained here)
-[Overview of Similar Projects](similar-projects.md)
+- [What is this document?](authors-note.md)
+- [What are the requirements for the proposed app?](requirements.md)
+- [Introduction to Decentralised Software](decentralised-software.md) (the term 'federated' is explained here)
+- [Overview of Similar Projects](similar-projects.md)
 
 ## Proposal
 

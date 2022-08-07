@@ -9,10 +9,10 @@ that prefer a horizontal or grassroots organizing structure.
 
 To make reading this document easy, I've put contextualising background information in these documents:
 
-- [What is this document?](authors-note.md)
-- [What are the requirements for the proposed app?](requirements.md)
-- [Introduction to Decentralised Software](decentralised-software.md)
-- [Overview of Similar Projects](similar-projects.md)
+- [What is this document?](pages/authors-note.md)
+- [What are the requirements for the proposed app?](pages/requirements.md)
+- [Introduction to Decentralised Software](pages/decentralised-software.md)
+- [Overview of Similar Projects](pages/similar-projects.md)
 
 ## Proposal
 
@@ -37,9 +37,9 @@ front end - creating a new Matrix client for web, iOS and Android.
 The Matrix ecosystem also includes SDKs for building clients, notably including
 implementations of the Olm and Megolm double-ratchet algorithms for end-to-end
 encryption (E2EE) — the same as is used by Signal. These libraries, which have
-undergone professional security audits, can be brought into a new client to provide E2EE. An argument for why E2EE would be useful in such an app can be found [here](requirements.md), and I've written aboud other benefits of building on Matrix [here](protocol.md).  
+undergone professional security audits, can be brought into a new client to provide E2EE. An argument for why E2EE would be useful in such an app can be found [here](pages/requirements.md), and I've written aboud other benefits of building on Matrix [here](pages/protocol.md).  
 
-- [Protocol: ‘Why Matrix?’](protocol.md)
-- [Spec Extension](spec-extension.md)
-- [Development Plan](development-plan.md)
-- [Homeservers Plan](homeservers.md)
+- [Protocol: ‘Why Matrix?’](pages/protocol.md)
+- [Spec Extension](pages/spec-extension.md)
+- [Development Plan](pages/development-plan.md)
+- [Homeservers Plan](pages/homeservers.md)

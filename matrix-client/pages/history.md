@@ -1,4 +1,4 @@
-# Radical Directory
+# History of this project
 
 Strategic & Political Goals
 

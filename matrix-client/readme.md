@@ -1,64 +1,45 @@
 # Organ: Federated Event Organising on Matrix
 
-This document collates research and outlines a proposal for a federated app,
-provisionally named **Organ,** for groups to organise events, make announcements
-and publish documents. The primary target audience is political organisers,
+This document collates research and outlines a proposal for a [federated](decentralised-software.md) app, **Organ.**
+
+The purpose of the app is to enable groups to organise events, make announcements,
+and publish media and documents in an open, privacy-oriented way. The primary target audience is political organisers,
 activists, nonprofits, unions, artists and community groups — particularly those
 that prefer a horizontal or grassroots organizing structure.
 
-In its use case and project goals, Organ has significant overlap with an
-existing project called Mobilizon. However there are a few critical differences
-between them which explain why a seperate project is proposed. Mobilizon
-implements the ActivityPub protocol to federate between instances. Organ would
-instead use the Matrix protocol to synchronise information about events and
+To make reading this document easy, I've put contextualising background information in these documents:
+
+- [What is this document?](pages/authors-note.md)
+- [What are the requirements for the proposed app?](pages/requirements.md)
+- [Introduction to Decentralised Software](pages/decentralised-software.md)
+- [Overview of Similar Projects](pages/similar-projects.md)
+
+## Proposal
+
+Organ would use the **Matrix protocol** to synchronise information about events and
 organisations between servers. Matrix is an “eventually consistent global JSON
 database with an HTTP API and pubsub semantics”, primarily used for federated
 instant messaging applications. The protocol exists as an openly published
 specification defined and promoted by the not-for-profit Matrix.org Foundation,
 which also maintains open source server software implementing the protocol.
 
-As the Matrix specification allows for arbitrary extensions, existing Matrix
+The Matrix specification allows for arbitrary extensions, meaning that existing Matrix
 servers can pass messages with custom fields that are only understood by certain
 clients. This means that effectively the server can be treated as a kind of
-arbitrary event transport service, with app development simply focusing on the
-front end - creating a new Matrix client for web, iOS and Android. This should
-drastically reduce the cost of development compared to Mobilizon. Organ would
-also make use of existing libraries and toolkits which implement end-to-end
-encryption (E2EE) among other features.
+arbitrary event transport service.
 
-Another advantage of building on the Matrix ecosystem is that the app can
-benefit from the continued development of the P2P Matrix project, which bundles
-a lightweight homeserver into the client and introduces more efficient routing,
-among other required features. When that project is ready for widespread use, it
-will enable a smooth transition to a peer-to-peer network, with the
-understanding that this should improve long-term network resilience,
-sustainability and security.
+The proposed app, Organ, would fundamentally be a Matrix client. By conforming
+and making valid extensions to the Matrix protocol, the app gets its backend
+(including federation) 'for free' by making use of existing Matrix server
+software. This means we can build a federated app relatively cheaply by focusing only on the
+front end - creating a new Matrix client for web, iOS and Android.
 
-The intention of this project is not to ‘compete’ with Mobilizon but to
-respectfully take a different approach and expand the fediverse for everyone.
-Naturally, a high priority is integration and interoperability including with
-ActivityPub and Mobilizon. If Organ is successfully implemented, the custom spec
-extension should be put to Matrix as formal MSC Proposal(s) so that other
-clients can implement the novel features.
+The Matrix ecosystem also includes SDKs for building clients, notably including
+implementations of the Olm and Megolm double-ratchet algorithms for end-to-end
+encryption (E2EE) — the same as is used by Signal. These libraries, which have
+undergone professional security audits, can be brought into a new client to provide E2EE. An argument for why E2EE would be useful in such an app can be found [here](pages/requirements.md), and I've written aboud other benefits of building on Matrix [here](pages/protocol.md).  
 
-Background
-
-[Author’s Note](authors-note.md)
-
-[Radical Directory](radical-directory.md)
-
-[Requirements](requirements.md)
-
-[Introduction to Decentralised Software](decentralised-software.md)
-
-[Overview of Similar Projects](similar-projects.md)
-
-Proposal
-
-[Protocol: ‘Why Matrix?’](protocol.md)
-
-[Spec Extension](spec-extension.md)
-
-[Development Plan](development-plan.md)
-
-[Homeservers Plan](homeservers.md)
+- [Protocol: ‘Why Matrix?’](pages/protocol.md)
+- [Spec Extension](pages/spec-extension.md)
+- [Development Plan](pages/development-plan.md)
+- [Homeservers Plan](pages/homeservers.md)

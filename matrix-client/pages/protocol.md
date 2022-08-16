@@ -36,9 +36,6 @@ sequence of events in that room. Unlike a blockchain, it’s not a consensus
 algorithm - state conflicts are handled in a less expensive and less destructive
 way.
 
-
-
-
 Another advantage of building on the Matrix ecosystem is that the app can
 benefit from the continued development of the P2P Matrix project, which bundles
 a lightweight homeserver into the client and introduces more efficient routing,

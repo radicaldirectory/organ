@@ -70,3 +70,32 @@ servers before you log in, or enter a custom one. Alternative apps would still
 be possible. On the web side, it can be a little easier to create a custom
 version, and each server would provide their own web app from their custom
 domain.
+
+
+
+
+User Stories:
+
+- I can create an account
+- I can log in
+- I can create a group
+- I can join a group
+- I can search for other users
+- I can search for groups
+- I can invite another user to my group
+- I can subscribe to a group
+- I can read posts by groups
+- I can make a post on behalf of my group
+- I can create an event
+- I can subscribe to an event
+- I can read updates about an event
+- I can turn on notifications for an event
+- I can turn on notifications for a group
+- I can read information about a group
+- I can read information about an event
+- I can read information about a user
+- I can choose what information others can read about me
+- I can choose what information others can read about my group
+- I can choose whether people can see my group
+- I can see a feed of updates about all the groups and events I'm subscribed to
+

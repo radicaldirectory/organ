@@ -71,9 +71,6 @@ be possible. On the web side, it can be a little easier to create a custom
 version, and each server would provide their own web app from their custom
 domain.
 
-
-
-
 User Stories:
 
 - I can create an account
@@ -98,4 +95,3 @@ User Stories:
 - I can choose what information others can read about my group
 - I can choose whether people can see my group
 - I can see a feed of updates about all the groups and events I'm subscribed to
-

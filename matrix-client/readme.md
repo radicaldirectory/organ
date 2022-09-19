@@ -20,23 +20,27 @@ learning process has broadly been about how technology can be used to promote
 political organising for social justice, and narrowly about ways to achieve
 these two goals:
 
-- Enabling easy event coordination and information sharing (publishing) while
-  protecting privacy and autonomy of users
-- Using community-led design and open networks to improve discovery, access and
-  onboarding for new members to join groups
+- Enabling easy, effective event coordination and information sharing (i.e.
+  publishing) while protecting privacy and autonomy of users
+- Improve discovery, access and onboarding for new members to join and
+  participate in groups
 
-These goals are not specific to grassroots activism or political organising. In
-fact, the need for tools of coordination and discovery are currently both
-largely met by for-profit social networks such as Facebook (without the privacy,
-autonomy, etc.). For many groups, information sharing and event organising have
-a natural overlap with access and onboarding, so an app that combines these
-functions is precedented and logical. The research has therefore focused on
-understanding the requirements and potential technical solutions for a new app
-that would better support communities (of any kind) to achieve both of these
-goals. The proposal below describes one such technical solution in the hope of
-receiving critical feedback and/or support from individuals and organisations to
-implement it.
+For many groups, information sharing and event organising have a natural overlap
+with access and onboarding (e.g. people find out about you through public events
+or content you published, or you might run induction or training events when
+people join), so an app that combines these functions makes sense.
 
+It should be noted that these goals are not specific to grassroots activism or
+political organising. Events and groups are the basic building blocks of all
+communities and teams, and privacy and autonomy - or in other words, freedom -
+are basic dignities everyone should get, without having to sacrifice
+functionality or useability.
+
+The research has therefore focused on understanding the requirements and
+potential technical solutions for a new app that would better support
+communities of any kind to achieve both of these goals. The proposal below
+describes one such technical solution in the hope of receiving critical feedback
+and/or support from individuals and organisations to implement it.
 
 ## Principles Guiding Design
 
@@ -57,9 +61,21 @@ User (and community) autonomy is generally understood to be achieved by:
 - Maximising interoperability by conforming to existing standards as much as
   possible
 
-Privacy is achieved by: Privacy is understood to mean ensuring that users' data
-is only accessed by people (or groups of people) when there is consent from the
-user. One part of this is in empowering the user by promoting
+
+Privacy is understood as a set of practices with the goal of mitigating risks
+related to unwanted exposure of personal data. Some of the major risks are:
+
+- Data access by malicious individuals for doxxing, abuse or harrassment
+  purposes
+- Data access by governments targeting individuals for surveillance, control or
+  criminalisation
+- Data access by corporations for targeted advertising
+- Uninformed consent. The user does not understand what they have agreed to
+  share
+
+Privacy is understood to mean ensuring that users' data is only accessed by
+people (or groups of people) when there is consent from the user. One part of
+this is in empowering the user by promoting
 [consentful design](https://www.consentfultech.io), with the goal that users
 clearly understand when they agree to share their data and the extent to which
 that can be revoked. The other part aims to make it technically impossible for
@@ -107,7 +123,6 @@ which are reproduced here:
 
 These are strong calls to action that should be used to hold this project
 accountable.
-
 
 - [What are the requirements for the proposed app?](pages/requirements.md)
 - [Introduction to Decentralised Software](pages/decentralised-software.md)

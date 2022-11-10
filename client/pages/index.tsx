@@ -10,13 +10,14 @@ export default function Home() {
   // const router = useRouter()
   const [rooms, setRooms] = useState<Room[]>([])
 
-  client?.once('sync', function(state, prevState, res) {
+  client.once('sync', function(state, prevState, res) {
     console.log(state); // state will be 'PREPARED' when the client is ready to use
     if (state === 'PREPARED') accessRooms()
   });
   
   function accessRooms() {
     setRooms(client.getRooms())    
+    console.log(client.getRooms())
   }
   
   //when client is logged in, then 
@@ -30,11 +31,15 @@ export default function Home() {
       </Head>
       
       <h1>Organ</h1>
+
       {client?.isLoggedIn() 
         ? `Hello ${client.getUserIdLocalpart()}` 
         : <Link href="/login">Login</Link>
       }
-      {rooms.map((room, i) => <p key={i}>{room.roomId}</p>)}
+
+      <h2>Rooms</h2>
+
+      {rooms.map((room, i) => <Link key={i} href={`/room/${room.roomId}`}><p>{room.name}</p></Link>)}
     </div>
   )
 }

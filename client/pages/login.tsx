@@ -1,18 +1,19 @@
 import Head from 'next/head'
-import * as sdk from 'matrix-js-sdk'
-import {FormEvent, useState} from 'react'
+import {FormEvent, useState, useContext} from 'react'
+import {ClientContext} from './_app'
 import {useRouter} from 'next/router'
 
 export default function Home() {
   const [username, setUsername] = useState("")
   const [password, setPassword] = useState("")
-  const client = sdk.createClient({baseUrl: "https://matrix.radical.directory" });
+  const client = useContext(ClientContext)
   const router = useRouter()
 
   function login(e: FormEvent) {
     e.preventDefault()
-    client.login("m.login.password", {"user": username, "password": password}).then((response) => {
+    client?.login("m.login.password", {"user": username, "password": password}).then((response) => {
       document.cookie = `access_token=${response.access_token}`
+      document.cookie = `user_id=${response.user_id}`
       router.push('/')
     })
   }

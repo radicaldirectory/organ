@@ -6,11 +6,8 @@ import React from 'react'
 
 // export const client = sdk.createClient({baseUrl: "https://matrix.radical.directory" });
 
-// TODO: Client side fetching process
-// TODO: List rooms with nicer info
-// TODO: Page per room, list messages
-// TODO: Send messages
-// TODO: Sync process
+// TODO: Client side fetching process ?
+// TODO: Sync process ?
 // TODO: Create rooms
 // TODO: If client not logged in, route to login page
 

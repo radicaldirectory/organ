@@ -42,4 +42,4 @@ a lightweight homeserver into the client and introduces more efficient routing,
 among other required features. When that project is ready for widespread use, it
 will enable a smooth transition to a peer-to-peer network, with the
 understanding that this should improve long-term network resilience,
-sustainability and security.
+sustainability and security. A critical benefit of P2P Matrix is metadata protection, which is not offered by the existing Matrix architecture.

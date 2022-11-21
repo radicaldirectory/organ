@@ -11,6 +11,8 @@ export default function Home() {
   const [rooms, setRooms] = useState<Room[]>([])
   const [prepared, setPrepared] = useState(false)
 
+  // TODO: bug: rooms do not always load
+  
   client.once('sync', function(state, prevState, res) {
     console.log(state); // state will be 'PREPARED' when the client is ready to use
     if (state === 'PREPARED') setPrepared(true)

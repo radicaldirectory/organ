@@ -11,10 +11,11 @@ export default function Home() {
 
   function login(e: FormEvent) {
     e.preventDefault()
-    client?.login("m.login.password", {"user": username, "password": password}).then((response) => {
+    client?.login("m.login.password", {"user": username, "password": password, "refresh_token": true}).then((response) => {
       document.cookie = `access_token=${response.access_token}`
       document.cookie = `user_id=${response.user_id}`
-      router.push('/')
+      console.log(response)
+      // router.push('/')
     })
   }
   

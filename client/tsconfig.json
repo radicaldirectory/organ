@@ -8,6 +8,10 @@
     ],
     "allowJs": true,
     "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "/*": ["*"]
+    },
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
@@ -31,6 +35,7 @@
     ".next/types/**/*.ts"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "public/service-worker.ts"
   ]
 }

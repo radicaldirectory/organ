@@ -1,0 +1,9 @@
+{
+    "extends": "./tsconfig",
+    "compilerOptions": {
+        "lib": ["WebWorker", "ES2015"]
+    },
+    "files": ["public/service-worker.ts"]
+}
+
+

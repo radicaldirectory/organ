@@ -11,7 +11,7 @@ import React from 'react'
 // TODO: Create rooms
 // TODO: If client not logged in, route to login page
 
-const defaultClient = sdk.createClient({baseUrl:"https://matrix.radical.directory"})
+const defaultClient = sdk.createClient({baseUrl:"https://localhost:8008"})
 export const ClientContext = React.createContext(defaultClient)
 
 export default function App({ Component, pageProps }: AppProps) {
